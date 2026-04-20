@@ -1,0 +1,15 @@
+[
+	{
+		"label": "cinch: run CLI",
+		"command": "bun run src/cli/index.ts $ZED_PROMPT",
+		"use_new_terminal": false
+	},
+	{
+		"label": "bun: test",
+		"command": "bun test"
+	},
+	{
+		"label": "bun: typecheck",
+		"command": "bun run typecheck"
+	}
+]
