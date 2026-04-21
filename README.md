@@ -218,6 +218,8 @@ Migrations auto-run on first open; the parent directory is created if missing.
 | `bun run install:local` | Add/refresh the `cinch` alias in your shell rc |
 | `bun test` | Run the test suite (`:memory:` SQLite, no file touched) |
 | `bun run typecheck` | `tsc --noEmit` |
+| `bun run lint` | Biome lint (read-only) |
+| `bun run format` | Biome format (writes) |
 | `bun run check` | Biome format + lint (writes) |
 | `bun run scripts/mcp-smoke.ts` | Smoke-test the MCP server end-to-end via the official client SDK |
 
